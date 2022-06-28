@@ -8,5 +8,5 @@ const entityMap: { [key: string]: string } = {
 };
 
 export function filterHtml(html: string | undefined) {
-    html ? String(html).replace(/[&<>"'\/]/g, key => entityMap[key]) : '';
+    return html ? String(html).replace(/[&<>"'\/]/g, key => entityMap[key]) : '';
 }
