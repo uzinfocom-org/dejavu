@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p web/tsconfig.json"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
