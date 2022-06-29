@@ -2,7 +2,7 @@ import { filterHtml } from "../filterHtml";
 import css from "./css";
 
 export function html(name: string | undefined) {
-    return( 
+    return(
     `
     <!DOCTYPE html>
 <html lang="en">
@@ -31,11 +31,11 @@ export function html(name: string | undefined) {
               alt=""
             />
           </div>
-          <p>${filterHtml(!name ? 'John Doe' : name)}</p>
+          <p>${filterHtml(!name ? 'Eshmat Toshmat' : name)}</p>
           <p>Arch user</p>
         </div>
         <div class="infos">
-          <p>John Smithni Arch linux o'rnatib, Arch foydalaniluvchilari oilasiga qo'shilgani bilan qutlaymiz!</p>
+          <p>${filterHtml(!name ? 'Eshmat Toshmat' : name)} Arch linux o'rnatib, Arch foydalaniluvchilari oilasiga qo'shilgani bilan qutlaymiz!</p>
           <div id="telegram">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
               <g>
