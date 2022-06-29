@@ -1,5 +1,5 @@
 function css() {
-    return (`
+  return `
     @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
     * {
@@ -196,7 +196,7 @@ function css() {
     #telegram {
         margin-top: 40px;
     }    
-    `)
+    `;
 }
 
 export default css;
