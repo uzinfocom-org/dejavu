@@ -1,4 +1,3 @@
-WebStorm
 import { IncomingMessage, ServerResponse } from "http";
 
 function index(_req: IncomingMessage, res: ServerResponse) {
