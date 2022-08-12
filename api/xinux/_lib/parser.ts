@@ -56,15 +56,15 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 function getDefaultImages(images: string[], theme: Theme): string[] {
   const defaultImage =
     theme === "light"
-      ? "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg"
-      : "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg";
+      ? "https://og.xinux.uz/xinux-black.svg"
+      : "https://og.xinux.uz/xinux-white.svg";
 
   if (!images || !images[0]) {
     return [defaultImage];
   }
   if (
-    !images[0].startsWith("https://assets.vercel.com/") &&
-    !images[0].startsWith("https://assets.zeit.co/")
+    !images[0].startsWith("https://og.xinux.uz/") &&
+    !images[0].startsWith("https://xinux.uz/")
   ) {
     images[0] = defaultImage;
   }
