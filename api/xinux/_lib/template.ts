@@ -129,7 +129,7 @@ export function getHtml(parsedReq: ParsedRequest) {
 </html>`;
 }
 
-function getImage(src: string, width = "auto", height = "225") {
+function getImage(src: string, width = "auto", height = "500") {
   return `<img
         class="logo"
         alt="Generated Image"
