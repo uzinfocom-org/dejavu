@@ -37,17 +37,16 @@ export function html(name: string | undefined) {
         <div class="infos">
           <p>${filterHtml(
             !name ? "Eshmat Toshmat" : name
-          )} ni bugungi jangda ko'rsatgan mardliklari bilan tabriklaymiz! Archni</p>
+          )} ni bugungi jangda ko'rsatgan mardliklari uchun jangovor faxriy yorlig' bilan taqdirlanadi!</p>
           <div id="telegram">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 725 435" style="enable-background:new 0 0 725 435;" xml:space="preserve">
               <g>
-                <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M384.814,100.68l-53.458,257.136   c-1.259,6.071-8.378,8.822-13.401,5.172l-72.975-52.981c-4.43-3.217-10.471-3.046-14.712,0.412l-40.46,32.981   c-4.695,3.84-11.771,1.7-13.569-4.083l-28.094-90.351l-72.583-27.089c-7.373-2.762-7.436-13.171-0.084-16.003L373.36,90.959   C379.675,88.517,386.19,94.049,384.814,100.68z"/>
-                <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M313.567,147.179l-141.854,87.367c-5.437,3.355-7.996,9.921-6.242,16.068   l15.337,53.891c1.091,3.818,6.631,3.428,7.162-0.517l3.986-29.553c0.753-5.564,3.406-10.693,7.522-14.522l117.069-108.822   C318.739,149.061,316.115,145.614,313.567,147.179z"/>
+                <path fill="white" d="M217.212,144.807L181.016,108.611L217.22,0L289.628,72.408L289.627,72.409L362.026,144.808L362.022,144.813L434.429,217.22L362.022,289.628L362.026,289.632L289.627,362.032L289.628,362.033L217.22,434.44L144.812,362.033L217.212,289.633L217.211,289.632L289.616,217.228L289.604,217.216L289.612,217.208L217.211,144.808L217.212,144.807ZM434.44,72.412L506.832,0.021L543.036,108.632L506.832,144.836L506.829,144.833L434.439,217.224L506.838,289.623L579.238,217.222L651.646,289.63L579.238,362.037L579.237,362.035L506.836,434.436L434.428,362.028L434.428,362.028L362.03,289.63L434.437,217.224L362.03,144.817L434.438,72.41L434.44,72.412ZM72.406,289.613L0,217.206L108.611,181.003L144.815,217.206L144.795,217.226L217.202,289.632L144.794,362.04L72.387,289.632L72.406,289.613ZM615.456,181.012L724.068,217.216L651.66,289.623L579.253,217.216L615.456,181.012Z" />
               </g>
               <g>
               </svg>
-              <div style="margin-top: 10px">
-                <h2>xinuxuz</h2>
+              <div style="margin-top: 10px;color: white; font-size: x-large; font-weight: bold">
+                Xinux Community
             </div>
          <div id="telegram">
           </div>    

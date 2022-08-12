@@ -64,7 +64,7 @@ function css() {
     }
     .business2 {
       min-height: 100vh;
-      background-image: url("https://linuxhint.com/wp-content/uploads/2019/12/4-4.png");
+      background-image: url("https://og.xinux.uz/sparta.jpg");
     }
     
     .business2 svg {
@@ -82,8 +82,9 @@ function css() {
     
     .business2 .infos > div p {
       font-size: 0.8rem;
-      margin: 5px 0;
+      margin: 10px 0;
       font-weight: 500;
+      padding: 5px
     }
     
     .business2 .front {
