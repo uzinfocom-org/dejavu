@@ -1,3 +1,5 @@
 node_modules
 api/dist
+api/xinux/dist
+api/honor/dist
 public/dist

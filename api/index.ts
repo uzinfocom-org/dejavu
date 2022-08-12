@@ -6,6 +6,10 @@ function index(_req: IncomingMessage, res: ServerResponse) {
     JSON.stringify({
       paths: [
         {
+          path: "/xinux",
+          params: ["title"],
+        },
+        {
           path: "/honor",
           params: ["full_name"],
         },
