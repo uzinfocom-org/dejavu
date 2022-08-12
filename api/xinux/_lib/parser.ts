@@ -4,7 +4,7 @@ import { ParsedRequest, Theme } from "./types";
 
 export function parseRequest(req: IncomingMessage) {
   console.log("HTTP " + req.url);
-  const { pathname, query } = parse(req.url || "/", true);
+  const { pathname, query } = parse(req.url || "/xinux/", true);
   const { fontSize, images, widths, heights, theme, md } = query || {};
 
   if (Array.isArray(fontSize)) {
@@ -14,7 +14,8 @@ export function parseRequest(req: IncomingMessage) {
     throw new Error("Expected a single theme");
   }
 
-  const arr = (pathname || "/").slice(1).split(".");
+  const arr = (pathname || "/xinux/").slice(1).split(".");
+
   let extension = "";
   let text = "";
   if (arr.length === 0) {
@@ -28,7 +29,7 @@ export function parseRequest(req: IncomingMessage) {
 
   const parsedRequest: ParsedRequest = {
     fileType: extension === "jpeg" ? extension : "png",
-    text: decodeURIComponent(text),
+    text: decodeURIComponent(text.replace("xinux/", "")),
     theme: theme === "light" ? "light" : "dark",
     md: md === "1" || md === "true",
     fontSize: fontSize || "96px",
