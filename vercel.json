@@ -12,7 +12,6 @@
     }
   ],
   "rewrites": [
-    { "source": "/honor/(.+)", "destination": "/api/honor" },
-    { "source": "/xinux/(.+)", "destination": "/api/xinux" }
+    { "source": "/api/xinux/(.+)", "destination": "/api/xinux" }
   ]
 }
