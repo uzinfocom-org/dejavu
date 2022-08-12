@@ -5,10 +5,7 @@
       "memory": 3008
     }
   },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/api"
-    }
+  "rewrites": [
+    { "source": "/(.+)", "destination": "/api" }
   ]
 }
