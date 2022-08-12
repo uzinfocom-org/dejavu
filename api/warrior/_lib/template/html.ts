@@ -26,7 +26,7 @@ export function html(name: string | undefined) {
         <div class="avatar">
           <div class="img">
             <img
-              src="/arch.png"
+              src="https://og.xinux.uz/archman.png"
               alt=""
             />
           </div>
@@ -37,7 +37,7 @@ export function html(name: string | undefined) {
         <div class="infos">
           <p>${filterHtml(
             !name ? "Eshmat Toshmat" : name
-          )} ni Arch linux o'rnatib, Arch foydalaniluvchilari oilasiga qo'shilgani bilan qutlaymiz!</p>
+          )} ni bugungi jangda ko'rsatgan mardliklari bilan tabriklaymiz! Archni</p>
           <div id="telegram">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
               <g>
