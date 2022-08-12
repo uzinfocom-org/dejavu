@@ -12,7 +12,7 @@
   "scripts": {
     "format": "yarn format:check --write",
     "format:check": "prettier --check \"api/**/*.ts\"",
-    "build": "tsc -p web/tsconfig.json"
+    "build": "tsc -p api/tsconfig.json"
   },
   "devDependencies": {
     "@types/marked": "4.0.3",
